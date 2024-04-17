@@ -5,7 +5,7 @@ export function ListItems({todos, toggleTodo, deleteTodo}){
     return(
         <>
         <ul className="list">
-        {todos.length === 0 && "No Tasks"}
+        {todos.length === 0 && "No Tasks Yet"}
         {todos.map((todo) => {
           return (
             <ListItem key={todo.id} {...todo} toggleTodo={toggleTodo} deleteTodo={deleteTodo}/>
