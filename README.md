@@ -6,4 +6,6 @@ Somethings I plan on adding in the future:
 
 -Edit Tasks
 
+Check out the live site: https://troymeeker-todoapp.netlify.app/
+
 Thanks for checking it out!
